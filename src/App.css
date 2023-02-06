@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 
-
+:root {
+  --primary-white: #fff;
+  --main: #454545;
+  --primary-dark: rgba (255,255, 255, 0)
+}
 .App {
   text-align: center;
 }
@@ -44,23 +48,42 @@
 /**************************************************/
 
 body {
-  font-family: 'Alegreya', serif;
+  font-family: 'Alegreya', serif !important
 }
 
 /****************** Navbar ********************************/
 
 .logo {
-  width: 5rem;
+  width: 2rem;
 }
 
 /*************** Menu Links **************/
 
 nav a.nav-link {
-  font-weight: 500;
+  /* font-weight: 500; */
   letter-spacing: 0.04rem;
   cursor: pointer;
 }
 
 nav ul li {
   text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  color: var(--main) !important;
+  border-top: 0.2rem solid var(--primary-dark);
+}
+
+navbar-brand{
+  max-width: 17.5rem;
+  padding: 0 !important;
+  height: 6rem !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:hover {
+  border-top: 0.2rem solid var(--primary-white);
+  
+
 }
