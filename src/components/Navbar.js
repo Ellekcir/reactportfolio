@@ -8,7 +8,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons"
 
 
 
-const Navbar = () => {
+const Navbar = ({ currentPage, handlePageChange }) => {
   return (
    
 <nav className="navbar navbar-expand-lg bg-light ">
@@ -24,16 +24,34 @@ const Navbar = () => {
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
       {/* <ul className="navbar-nav position-absolute top-0 end-0 "> */}
         <li className="nav-item active">
-          <a className="nav-link" href="example.com">About Me</a>
+          <a href="#about" onClick={() => handlePageChange('About Me')}
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className= {currentPage === 'About Me' ? 'nav-link active' : 'nav-link'}
+        >About Me</a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="example.com">Portfolio</a>
+        <a
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+        >Portfolio</a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link " href="example.com">Contact</a>
+        <a
+          href="#contact"
+          onClick={() => handlePageChange('Contact')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+        >Contact</a>
         </li>
         <li className="nav-item active">
-          <a className="nav-link" href="example.com">Resume</a>
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+          // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >Resume</a>
         </li>
       </ul>
 
