@@ -3,7 +3,8 @@
 :root {
   --primary-white: #fff;
   --main: #454545;
-  --primary-dark: rgba (255,255, 255, 0)
+  --primary-dark: rgba (255,255, 255, 0);
+  --primary-blue: #8caecb;
 }
 .App {
   text-align: center;
@@ -53,9 +54,10 @@ body {
 
 /****************** Navbar ********************************/
 
-.logo {
+/* .logo {
+  
   width: 2rem;
-}
+} */
 
 /*************** Menu Links **************/
 
@@ -67,6 +69,7 @@ nav a.nav-link {
 
 nav ul li {
   text-transform: uppercase;
+  padding: 1rem;
 }
 
 .navbar-nav > li > a {
@@ -76,14 +79,22 @@ nav ul li {
   border-top: 0.2rem solid var(--primary-dark);
 }
 
-navbar-brand{
-  max-width: 17.5rem;
-  padding: 0 !important;
-  height: 6rem !important;
+h1.navbar-heading {
+  color: var(--primary-blue) !important;
+  /* max-width: 17.5rem; */
+  padding: 5%;
+  /* padding: 0 !important;
+  height: 6rem !important; */
 }
 
-.navbar-nav > li > a.active, .navbar-nav > li > a:hover {
-  border-top: 0.2rem solid var(--primary-white);
-  
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
+  border-bottom: 0.2rem solid var(--primary-white);
+}
 
+.navbar-nav > li > a:hover {
+  border-bottom: 0.2rem solid var(--primary-blue);
+}
+
+.navbar-toggler {
+  color: var(--primary-blue);
 }

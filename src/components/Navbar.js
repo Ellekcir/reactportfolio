@@ -1,15 +1,23 @@
-import React from 'react';
-import logo from '../logo.png'
+import React from "react";
+// REACT FONTAWESOME IMPORTS // <FontAwesomeIcon icon={[]} />; 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/free-solid-svg-icons"
+// import logo from '../logo.png'
+
+
+
+
 
 const Navbar = () => {
   return (
    
-<nav className="navbar navbar-expand-lg text-info bg-light ">
+<nav className="navbar navbar-expand-lg bg-light ">
   {/* <div className='container'> */}
   <div className="container-fluid ">
-    <img className='logo' src={logo} alt="Logo/NAME" /><a className="navbar-brand text-info" href="example.com">Rickelle Griffith</a>
+    {/* <img className='logo' src={logo} alt="Logo/NAME" /> */}
+    <h1 className="navbar-heading" >RICKELLE GRIFFITH</h1>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
+      <FontAwesomeIcon icon={faBars} style={{color: "#8caecb"}} />
     </button>
 
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
