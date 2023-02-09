@@ -163,11 +163,13 @@ h1.navbar-heading {
  
 .project {
   display: flex;
-  justify-content: center;
+  justify-content:left;
   flex-direction: row;
+  padding: 2rem;
+
   /* border: solid 2px;
   border-color: #8caecb ; */
-    padding:2rem; 
+
 }
 
 .project-image { 
@@ -227,4 +229,27 @@ h1.navbar-heading {
   padding: 5%;
 }
 
+/****************** HOME ********************************/
+
+.home-container{
+  display:flex;
+ justify-content: center;
+}
+
+.HomeCont {
+  padding: 5%;
+
+}
+
+/* .ProfileCont {
+  justify-content: right;
+} */
+
+.ProfilePic {
+  position: relative;
+  border: solid 2px;
+  border-color: #8caecb;
+  margin: auto;
+  border-radius: 2%;
+}
 

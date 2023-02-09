@@ -5,9 +5,30 @@ export default function Portfolio() {
     const projects = [
         {
             name: "Travel Stash",
+            repo: "https://github.com/Kokkonut/travel-stash",
+            link: "https://kokkonut.github.io/travel-stash/",
+            description: "Travel application using various of API's and organised trips",
+            image: "TRAVEL-STASH"
+        },
+        {
+            name: "Technology Blog",
+            repo: "https://github.com/Ellekcir/techblog-mvc",
+            link: "https://github.com/Ellekcir/techblog-mvc",
+            description: "'MVC Tech Blog' is a website using the Model-View-Controller format, a mysql database using database modellingis done through the Sequelize ORM for MySQL. Built using MySQL2, Express, express-handlebars, express-session, Sequelize, bcrypt and dotenv.",
+            image: "TechBlog"
+        },
+        {
+            name: "JATE",
+            repo: "https://github.com/Ellekcir/PWA-text-editor",
+            link: "https://texteditor-jsdl.herokuapp.com/",
+            description: "This project is a Progressive Web Application. 'Progressive Web Apps (PWAs) are web apps that use service workers, manifests, and other web-platform features in combination with progressive enhancement to give users an experience on par with native apps.' This PWA is a text editor that runs through a browser and enables you to install and use offline.",
+            image: "JATE"
+        },
+        {
+            name: "Travel Stash",
             repo: "https://github.com/Ellekcir/Social-Network-API",
             link: "https://github.com/Ellekcir/Social-Network-API",
-            description: "blah blah",
+            description: "Blah ",
             image: "TRAVEL-STASH"
         },
         {

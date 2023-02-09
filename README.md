@@ -1,5 +1,86 @@
-<!-- https://www.freepik.com/ -->
 
+
+<h1 align="center"> Progressive Web Application - Text Editor J.A.T.E  </h1>
+ 
+
+ 
+<p align="center">
+    <img src="https://img.shields.io/badge/JAVASCRIPT-yellow?logo=javascript" />
+    <img src="https://img.shields.io/badge/REACT-green?logo=node.js" />
+    <img src="https://img.shields.io/badge/EXPRESS.JS-black?logo=express" />
+    <img src="https://img.shields.io/badge/HEROKU-purple?logo=HEROKU" />
+    <img src="https://img.shields.io/badge/BOOTSTRAP-yellow?logo=Babel" />
+
+    
+</p>
+   
+## Description
+
+This project is a Personal Portfolio made by REACT.
+
+
+![Home Page](src/assets/HOME.jpg)
+![Projects Page](src/assets/Projects.jpg)
+![Contact Page](src/assets/contact.jpg)
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Testing](#testing)
+* [Credits](#credits)
+* [Questions](#questions)
+
+
+## Installation  
+
+Please find code here:
+
+https://github.com/Ellekcir/reactportfolio
+
+ 1. Clone the code
+ 2. Install dependencies from the ROOT of the project (NOT in client/server files) to do so run the command:
+ 
+```
+npm install 
+```
+3. To start up the local host then run:
+
+ ```
+ npm run start
+ ```
+ 4. Open your localhost:3000
+ 
+## Usage
+
+ To access fully deployed site via GitHub, please visit the following link -
+
+https://ellekcir.github.io/reactportfolio/
+
+## Testing
+
+All testing done using the Localhost:3000.
+ 
+## License
+ 
+![Project License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
+
+Please see LICENSE for details
+
+## Credits
+* University of Adelaide - Coding Bootcamp
+* GitHub
+* https://www.freepik.com/
+* Youtube.com
+* U2 Tutors
+
+## Questions
+
+If you have any questions about the project you can contact me via the links below
+   
+* 📧 [Email](mailto:rickelle.1993@live.com.au)
+
+   
+* 💻 [GitHub](https://github.com/Ellekcir)
 
 # Getting Started with Create React App
 
