@@ -1,15 +1,13 @@
 
 
-<h1 align="center"> Progressive Web Application - Text Editor J.A.T.E  </h1>
+<h1 align="center"> REACT Portfolio </h1>
  
 
  
 <p align="center">
     <img src="https://img.shields.io/badge/JAVASCRIPT-yellow?logo=javascript" />
     <img src="https://img.shields.io/badge/REACT-green?logo=node.js" />
-    <img src="https://img.shields.io/badge/EXPRESS.JS-black?logo=express" />
-    <img src="https://img.shields.io/badge/HEROKU-purple?logo=HEROKU" />
-    <img src="https://img.shields.io/badge/BOOTSTRAP-yellow?logo=Babel" />
+    <img src="https://img.shields.io/badge/BOOTSTRAP-purple?logo=Bootstrap" />
 
     
 </p>
