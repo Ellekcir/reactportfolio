@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
 
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: 'Alegreya', serif !important;
+  /* position: relative;
+  padding-bottom: 6.74rem;
+  box-sizing: inherit; */
+}
+
 :root {
   --primary-white: #fff;
   --main: #454545;
@@ -48,9 +61,6 @@
 /**************************************************/
 /**************************************************/
 
-body {
-  font-family: 'Alegreya', serif !important
-}
 
 /****************** Navbar ********************************/
 
@@ -70,6 +80,7 @@ nav a.nav-link {
 nav ul li {
   text-transform: uppercase;
   padding: 1rem;
+  
 }
 
 .navbar-nav > li > a {
@@ -89,6 +100,7 @@ h1.navbar-heading {
 
 .navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-bottom: 0.2rem solid var(--primary-white);
+  
 }
 
 .navbar-nav > li > a:hover {
@@ -101,13 +113,13 @@ h1.navbar-heading {
 
 /****************** Header ********************************/
 
-.header-wraper {
+/* .header-wraper {
   position: relative;
   background: url(https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?w=900&t=st=1675658137~exp=1675658737~hmac=8405caf48af24b09ca0f6977ac1cefa0be17aa62689b1563b88c6cc9045919cf) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
-}
+} */
 
 .main-info {
   display: flex;
@@ -121,3 +133,98 @@ h1.navbar-heading {
   color: var(--primary-blue) ;
   text-transform: uppercase;
 }
+
+/****************** MAIN ********************************/
+
+#main-content {
+  position: relative;
+  background: url(https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?w=900&t=st=1675658137~exp=1675658737~hmac=8405caf48af24b09ca0f6977ac1cefa0be17aa62689b1563b88c6cc9045919cf) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+/****************** FOOTER ********************************/
+ 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.footer-cont {
+  margin-top: auto 0;
+  margin-bottom: auto 0;
+}
+
+/****************** PROJECT ********************************/
+ 
+.project {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* border: solid 2px;
+  border-color: #8caecb ; */
+    padding:2rem; 
+}
+
+.project-image { 
+  border: solid 2px;
+  border-color: #8caecb;
+  align-content: space-around;
+  border-radius: 2%;
+  max-width: 30rem;
+  max-height: 30rem;
+}
+
+.project-text {
+  padding:2rem; 
+}
+
+/****************** CONTACT ********************************/
+
+.contact-form {
+  border: solid 2px;
+  border-color: #8caecb;
+  display: flex;
+}
+
+.contact-input {
+  border: solid 2px;
+  border-color: #8caecb;
+  display: flex;
+
+  padding-left: 10%;
+}
+
+
+.contact-section {
+  border-top: solid 5px;
+  border-color: #8caecb;
+  padding-left: 10%;
+  padding-top: 10%;
+}
+
+.submit-button {
+  margin: 16px ;
+  background-color: #8caecb;
+  border-radius: 10%;
+}
+
+.submit-button:hover {
+  margin: 16px ;
+  background-color:#fff;
+  border-radius: 10%;
+}
+
+/****************** HOME ABOUT RESUME PADDING ********************************/
+.home-section-main, 
+.about-section,
+.resume-section
+{
+  padding: 5%;
+}
+
+
