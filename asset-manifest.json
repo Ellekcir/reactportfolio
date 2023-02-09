@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/reactportfolio/static/css/main.7563f556.css",
+    "main.js": "/reactportfolio/static/js/main.41c4d8da.js",
+    "static/js/787.587f51a0.chunk.js": "/reactportfolio/static/js/787.587f51a0.chunk.js",
+    "static/media/Projects.jpg": "/reactportfolio/static/media/Projects.22b0ee44cf250b1c0a9d.jpg",
+    "static/media/HOME.jpg": "/reactportfolio/static/media/HOME.cb3238ca111979c02277.jpg",
+    "static/media/contact.jpg": "/reactportfolio/static/media/contact.2307d5c716b0986ceb19.jpg",
+    "static/media/TRAVEL-STASH.jpg": "/reactportfolio/static/media/TRAVEL-STASH.af4b78ed5ec9fe085bcf.jpg",
+    "static/media/JATE.jpg": "/reactportfolio/static/media/JATE.70237326c24eecd334c6.jpg",
+    "static/media/TechBlog.jpg": "/reactportfolio/static/media/TechBlog.35e85f718f337ec83dbe.jpg",
+    "static/media/profile.jpg": "/reactportfolio/static/media/profile.220c1ae76e0fec1ccb82.jpg",
+    "index.html": "/reactportfolio/index.html",
+    "main.7563f556.css.map": "/reactportfolio/static/css/main.7563f556.css.map",
+    "main.41c4d8da.js.map": "/reactportfolio/static/js/main.41c4d8da.js.map",
+    "787.587f51a0.chunk.js.map": "/reactportfolio/static/js/787.587f51a0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7563f556.css",
+    "static/js/main.41c4d8da.js"
+  ]
+}
