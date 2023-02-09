@@ -98,3 +98,26 @@ h1.navbar-heading {
 .navbar-toggler {
   color: var(--primary-blue);
 }
+
+/****************** Header ********************************/
+
+.header-wraper {
+  position: relative;
+  background: url(https://img.freepik.com/free-vector/abstract-background-with-squares_23-2148995948.jpg?w=900&t=st=1675658137~exp=1675658737~hmac=8405caf48af24b09ca0f6977ac1cefa0be17aa62689b1563b88c6cc9045919cf) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.main-info h1 {
+  color: var(--primary-blue) ;
+  text-transform: uppercase;
+}
