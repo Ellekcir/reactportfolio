@@ -5,6 +5,9 @@ export default function About() {
     <div className='about-section'>
       <h1>ABOUT ME</h1>
       <p>
+
+      An inspiring web-developer presenting you with this portfolio in hope one day soon it will evolve it something unimaginable! I work with numbers and people everyday, my personal interests are art, design and travel. Join me on my journey as update portfolio one project at a time.
+      
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
         mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non

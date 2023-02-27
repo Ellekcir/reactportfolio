@@ -25,11 +25,11 @@ export default function Portfolio() {
             image: "JATE"
         },
         {
-            name: "Travel Stash",
-            repo: "https://github.com/Ellekcir/Social-Network-API",
-            link: "https://github.com/Ellekcir/Social-Network-API",
-            description: "Blah ",
-            image: "TRAVEL-STASH"
+            name: "Hospo-Ordering",
+            repo: "https://github.com/Kokkonut/hospo-order",
+            link: "https://hospo-order.herokuapp.com/",
+            description: "This project is a MERN stack based application which uses MongoDB, Express, React, and Node.js. The design of this application is for pre ordering coffee/food from local cafes and restaurants. It features two applications sharing a common backend, in order to communicate with the user and the cafe/restaurant.",
+            image: "CAFE-APP"
         },
         {
             name: "Travel Stash",
